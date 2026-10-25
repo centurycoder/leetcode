@@ -1,0 +1,10 @@
+# Go
+*.test
+
+# Python
+__pycache__/
+*.py[cod]
+
+# C build artifacts
+*.o
+*.out
