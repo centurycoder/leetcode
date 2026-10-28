@@ -1,18 +1,16 @@
 package solution
 
 func twoSum(numbers []int, target int) []int {
-	i := 0
-	j := 1
-	for i < j && j < len(numbers) {
-		if numbers[i]+numbers[j] == target {
+	i, j := 0, len(numbers)-1
+	for i < j {
+		sum := numbers[i] + numbers[j]
+		if sum == target {
 			return []int{i + 1, j + 1}
-		} else if numbers[i]+numbers[j] < target {
-			j++
-		} else {
+		} else if sum < target {
 			i++
-			j = i + 1
+		} else {
+			j--
 		}
-
 	}
 	return nil
 }
