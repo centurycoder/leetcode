@@ -27,3 +27,10 @@ Use the package name `solution` (or a short valid name) in each problem director
 ## Python and C
 
 Use standard-library-only Python unless a problem needs otherwise. Keep C solutions and any problem-specific headers or test harnesses together in the problem directory. Compile C solutions with the compiler and harness appropriate to that problem.
+
+## Key Learnings
+
+### Hash Map
+
+- 'frequency array' as the hash key (go/0049-group-anagrams)
+-  
