@@ -1,4 +1,4 @@
 
-1. When generating a code skeleton, write only the requested function signature. Do not add a function body, placeholder behavior (such as a panic or default return), or implementation. Add a test skeleton only when requested.
+1. When generating a code skeleton, create folder structure, solution tests and solution, leave solution functions empty because that's the part I will fill by myself.
 
 2. When asking to check my implementation, do not modify my implementation directly, only give suggestion unless asked for modification.
